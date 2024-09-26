@@ -1,0 +1,141 @@
+/* Home.css */
+
+/* General Styles for Home Section */
+.home-section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Container Styling */
+  .home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Left Side (Image and Contact Links) */
+  .left-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-image-wrapper {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff; /* White border around the circle */
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .contact-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .contact-link:hover {
+    color: #f0f0f0;
+    text-decoration: underline;
+  }
+  
+  /* Right Side (Text) */
+  .right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .welcome-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .welcome-text h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .welcome-text p {
+    font-size: 1.5rem;
+    color: #b0b0b0; /* Light gray text for profession */
+  }
+  
+  /* Arrow at the Bottom */
+  .arrow-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .arrow-down a {
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .arrow-down a:hover {
+    color: #b0b0b0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .home-section {
+      flex-direction: column;
+    }
+  
+    .right-section {
+      margin-top: 2rem;
+      text-align: center;
+    }
+  
+    .welcome-text h1 {
+      font-size: 2rem;
+    }
+  
+    .welcome-text h2 {
+      font-size: 1.7rem;
+    }
+  
+    .welcome-text p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .profile-image-wrapper {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .contact-link {
+      font-size: 1rem;
+    }
+  
+    .arrow-down a {
+      font-size: 1.5rem;
+    }
+  }
+  
