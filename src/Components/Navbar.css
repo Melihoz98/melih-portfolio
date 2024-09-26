@@ -2,7 +2,7 @@
 
 /* Styling the navbar */
 .navbar {
-    background-color: #000; /* Black background */
+    background-color: #262626; /* Black background */
     color: #fff; /* White text */
   }
   
@@ -10,6 +10,8 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
+    background-color: transparent;
+    border: transparent;
   }
   
   .navbar-nav .nav-link {
@@ -39,7 +41,7 @@
       right: 0;
       height: 100vh;
       width: 250px;
-      background-color: #000;
+      background-color: #1a1a1a;
       transition: all 0.3s ease-in-out;
       transform: translateX(100%);
       z-index: 9999;

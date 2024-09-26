@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="container">
         {/* Changed to a button styled like a link for better semantics */}
         <button className="navbar-brand nav-link-button" onClick={() => scrollToSection('home')}>
-          MyPortfolio
+          Melih Øzata - Portfolio
         </button>
         <button
           className="navbar-toggler"
