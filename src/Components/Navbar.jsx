@@ -1,4 +1,3 @@
-// Navbar.jsx
 import React, { useState } from 'react';
 import './Navbar.css'; // Import the custom styles
 
@@ -9,10 +8,17 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const scrollToSection = (section) => {
+    // Close the menu when a link is clicked
+    toggleMenu();
+    // Smooth scroll to the section
+    document.getElementById(section).scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="#" onClick={() => scrollToSection('home')}>
           MyPortfolio
         </a>
         <button
@@ -30,16 +36,16 @@ const Navbar = () => {
           <button className="close-btn" onClick={toggleMenu}>&times;</button>
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#home" onClick={toggleMenu}>Home</a>
+              <button className="nav-link" onClick={() => scrollToSection('home')}>Home</button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#projects" onClick={toggleMenu}>Projects</a>
+              <button className="nav-link" onClick={() => scrollToSection('projects')}>Projects</button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about" onClick={toggleMenu}>About</a>
+              <button className="nav-link" onClick={() => scrollToSection('about')}>About</button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact" onClick={toggleMenu}>Contact</a>
+              <button className="nav-link" onClick={() => scrollToSection('contact')}>Contact</button>
             </li>
           </ul>
         </div>
