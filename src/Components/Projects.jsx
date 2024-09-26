@@ -1,6 +1,8 @@
 import React from 'react';
 import './Projects.css'; // Import the custom styles
-
+import kontor from '../assets/kontor.png'; // Assuming this is the correct path
+import chipotle from '../assets/chipotle.png';
+import car from '../assets/car.png';
 const Projects = () => {
   return (
     <section id="projects" className="projects-section">
@@ -11,18 +13,18 @@ const Projects = () => {
           {/* Project 1 */}
           <div className="col-md-4 project-card">
             <div className="project-content">
-              <img
-                src="/path-to-your-logo1.png"
-                alt="Project 1 Logo"
-                className="project-logo"
-              />
-              <h3 className="project-title">Project 1</h3>
+            <img
+  src={kontor}
+  alt="Project 1 Logo"
+  className="project-logo"
+/>
+              <h3 className="project-title">KontorXpert</h3>
               <p className="project-description">
                 This is a cool project where I built something awesome. It features responsive design, sleek functionality, and more.
               </p>
               <div className="project-buttons">
                 <a
-                  href="https://project1-website.com"
+                  href="https://kontorxpert.dk/"
                   className="btn btn-dark project-btn"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -45,17 +47,17 @@ const Projects = () => {
           <div className="col-md-4 project-card">
             <div className="project-content">
               <img
-                src="/path-to-your-logo2.png"
+                src={chipotle}
                 alt="Project 2 Logo"
                 className="project-logo"
               />
-              <h3 className="project-title">Project 2</h3>
+              <h3 className="project-title">Chipotle Mexican</h3>
               <p className="project-description">
                 Another great project that showcases my ability to build modern, clean user interfaces and work with APIs.
               </p>
               <div className="project-buttons">
                 <a
-                  href="https://project2-website.com"
+                  href="https://chipotlemexicansteak.dk/"
                   className="btn btn-dark project-btn"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -63,7 +65,7 @@ const Projects = () => {
                   Visit Website
                 </a>
                 <a
-                  href="https://github.com/yourusername/project2"
+                  href="https://github.com/Melihoz98/chipotle-jsx-app/tree/master"
                   className="btn btn-outline-light project-btn"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -78,17 +80,17 @@ const Projects = () => {
           <div className="col-md-4 project-card">
             <div className="project-content">
               <img
-                src="/path-to-your-logo3.png"
+                src={car}
                 alt="Project 3 Logo"
                 className="project-logo"
               />
-              <h3 className="project-title">Project 3</h3>
+              <h3 className="project-title">Grandes Rent A Car</h3>
               <p className="project-description">
                 A fantastic project where I used cutting-edge technology to deliver a seamless user experience across devices.
               </p>
               <div className="project-buttons">
                 <a
-                  href="https://project3-website.com"
+                  href="https://nynygrandesrentacar20240915113435.azurewebsites.net/"
                   className="btn btn-dark project-btn"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -96,7 +98,7 @@ const Projects = () => {
                   Visit Website
                 </a>
                 <a
-                  href="https://github.com/yourusername/project3"
+                  href="https://github.com/Melihoz98/GrandesRentACar"
                   className="btn btn-outline-light project-btn"
                   target="_blank"
                   rel="noopener noreferrer"
