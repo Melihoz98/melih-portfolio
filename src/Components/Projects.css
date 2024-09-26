@@ -1,0 +1,105 @@
+/* Base section styles */
+.projects-section {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  /* Project Card Styles */
+  .project-card {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-content {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Project Logo */
+  .project-logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .project-card:hover .project-logo {
+    filter: brightness(1.5);
+  }
+  
+  /* Project Title */
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Project Description */
+  .project-description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #b3b3b3;
+  }
+  
+  /* Button Styling */
+  .project-buttons .project-btn {
+    margin: 5px;
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .project-btn:hover {
+    transform: translateY(-3px);
+  }
+  
+  .project-btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  /* Button Colors */
+  .btn-dark {
+    background-color: #111;
+    border-color: #111;
+  }
+  
+  .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 767.98px) {
+    .project-title {
+      font-size: 1.2rem;
+    }
+  
+    .project-description {
+      font-size: 0.9rem;
+    }
+  
+    .project-buttons .project-btn {
+      font-size: 0.8rem;
+    }
+  }
+  
