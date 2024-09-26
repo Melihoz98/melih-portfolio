@@ -18,9 +18,10 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
       <div className="container">
-        <a className="navbar-brand" href="#" onClick={() => scrollToSection('home')}>
+        {/* Changed to a button styled like a link for better semantics */}
+        <button className="navbar-brand nav-link-button" onClick={() => scrollToSection('home')}>
           MyPortfolio
-        </a>
+        </button>
         <button
           className="navbar-toggler"
           type="button"
@@ -36,16 +37,25 @@ const Navbar = () => {
           <button className="close-btn" onClick={toggleMenu}>&times;</button>
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <button className="nav-link" onClick={() => scrollToSection('home')}>Home</button>
+              {/* Button styled as a link */}
+              <button className="nav-link nav-link-button" onClick={() => scrollToSection('home')}>
+                Home
+              </button>
             </li>
             <li className="nav-item">
-              <button className="nav-link" onClick={() => scrollToSection('projects')}>Projects</button>
+              <button className="nav-link nav-link-button" onClick={() => scrollToSection('projects')}>
+                Projects
+              </button>
             </li>
             <li className="nav-item">
-              <button className="nav-link" onClick={() => scrollToSection('about')}>About</button>
+              <button className="nav-link nav-link-button" onClick={() => scrollToSection('about')}>
+                About
+              </button>
             </li>
             <li className="nav-item">
-              <button className="nav-link" onClick={() => scrollToSection('contact')}>Contact</button>
+              <button className="nav-link nav-link-button" onClick={() => scrollToSection('contact')}>
+                Contact
+              </button>
             </li>
           </ul>
         </div>
