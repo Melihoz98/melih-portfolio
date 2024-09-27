@@ -1,0 +1,72 @@
+.skills-section {
+    padding: 60px 0;
+    background-color: #262626; /* Dark background */
+    color: white; /* White text */
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Reduced gap between columns */
+    justify-items: center;
+  }
+  
+  .tech-column {
+    text-align: center;
+  }
+  
+  .tech-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .tech-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tech-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .tech-list i {
+    margin-right: 10px;
+    font-size: 28px;
+    color: #00bfff;
+  }
+  
+  .tech-list li:hover i {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Most Used Stack styling updated to match other columns */
+  .most-used-stack h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .tech-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tech-grid {
+      grid-template-columns: 1fr; /* Single column on small screens */
+    }
+  }
+  
