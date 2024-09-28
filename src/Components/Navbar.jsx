@@ -46,17 +46,18 @@ const Navbar = () => {
               <button className="nav-link nav-link-button" onClick={() => scrollToSection('projects')}>
                 Projects
               </button>
+            </li> 
+             <li className="nav-item">
+              <button className="nav-link nav-link-button" onClick={() => scrollToSection('skills')}>
+                Technologies & Skills
+              </button>
             </li>
             <li className="nav-item">
               <button className="nav-link nav-link-button" onClick={() => scrollToSection('about')}>
                 About
               </button>
             </li>
-            <li className="nav-item">
-              <button className="nav-link nav-link-button" onClick={() => scrollToSection('contact')}>
-                Contact
-              </button>
-            </li>
+          
           </ul>
         </div>
       </div>
