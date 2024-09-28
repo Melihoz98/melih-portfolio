@@ -69,4 +69,16 @@
       grid-template-columns: 1fr; /* Single column on small screens */
     }
   }
+  .skills-section {
+    text-align: center; /* Center-aligns the text within this section */
+  }
   
+  .skills-list {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+  }
+  
+  .skills-list li {
+    margin: 10px 0; /* Adds some spacing between the list items */
+  }

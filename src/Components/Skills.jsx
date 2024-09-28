@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <section id="skills" className="skills-section">
       <div className="container">
-        <h2 className="section-title">Technical Skills</h2>
+        <h2 className="section-title">Technologies I Have Used</h2>
         
         {/* Technologies Grid */}
         <div className="tech-grid">
@@ -81,6 +81,17 @@ const Skills = () => {
             </ul>
           </div>
         </div>
+
+        {/* Skills Section */}
+        <h2 className="section-title">Skills</h2>
+        <ul className="skills-list">
+          <li>Problem Solving</li>
+          <li>Analytical Thinking</li>
+          <li>Communication Skills</li>
+          <li>Team Collaboration</li>
+          <li>Time Management</li>
+          <li>Adaptability and Learning</li>
+        </ul>
       </div>
     </section>
   );
