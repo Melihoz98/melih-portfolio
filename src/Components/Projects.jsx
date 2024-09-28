@@ -23,7 +23,9 @@ const Projects = () => {
               />
               <h3 className="project-title">KontorXpert</h3>
               <p className="project-description">
-                This is a cool project where I built something awesome. It features responsive design, sleek functionality, and more.
+                - Project for Customer that sells office funiture *on going project*
+                - Ecommerce webshop for customers to buy and get shipped
+                - Stripe API, Shipmondo API, C#, MSSQL, ASP.NET, JQuery, JavaScript, HTML, CSS
               </p>
               <div className="project-buttons">
                 <a
@@ -56,7 +58,10 @@ const Projects = () => {
               />
               <h3 className="project-title">Chipotle Mexican</h3>
               <p className="project-description">
-                Another great project that showcases my ability to build modern, clean user interfaces and work with APIs.
+               - Website for restaurant owner, that displays menu ect
+               - Customers can browse and see information about the restaurant
+               - Firebase, React.js, JavaScript, HTML, CSS
+
               </p>
               <div className="project-buttons">
                 <a
@@ -89,7 +94,9 @@ const Projects = () => {
               />
               <h3 className="project-title">Grandes Rent A Car</h3>
               <p className="project-description">
-                A fantastic project where I used cutting-edge technology to deliver a seamless user experience across devices.
+               - Webapplication for car rental owner in Turkey *prototype*
+               - Customers can browse cars, and select car to rent based on date ect
+               - Azure, C#, ASP.NET, MSSQL, Razor pages, JQuery, JavaScript, HTML, CSS 
               </p>
               <div className="project-buttons">
                 <a
@@ -122,7 +129,10 @@ const Projects = () => {
               />
               <h3 className="project-title">Chat Space</h3>
               <p className="project-description">
-                A travel booking platform that integrates multiple APIs to provide users with the best deals and experiences.
+               - Hobby project where users can create chatrooms for chatting
+               - Users can create rooms, and chat in real time
+               - Angular, Azure, ASP.NET, SignalR, TypeScript, HTML, CSS
+            
               </p>
               <div className="project-buttons">
                 <a
@@ -155,7 +165,9 @@ const Projects = () => {
               />
               <h3 className="project-title">Handy Rent</h3>
               <p className="project-description">
-                A sleek and modern e-commerce platform for coffee enthusiasts, featuring custom designs and secure payment integration.
+                - 3rd Semester project, for renting out tools
+                - Distributed application, with solving concurrency problem in mind
+                - C#, REST API, ASP.NET, JWT, WinForms, JQuery, Razor Pages, MSSQL
               </p>
               <div className="project-buttons">
                 <a
