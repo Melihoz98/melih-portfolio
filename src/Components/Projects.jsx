@@ -23,9 +23,11 @@ const Projects = () => {
               />
               <h3 className="project-title">KontorXpert</h3>
               <p className="project-description">
-                - Project for Customer that sells office funiture *on going project*
-                - Ecommerce webshop for customers to buy and get shipped
-                - Stripe API, Shipmondo API, C#, MSSQL, ASP.NET, JQuery, JavaScript, HTML, CSS
+                <ul>
+                  <li>Project for Customer that sells office furniture *ongoing project*</li>
+                  <li>Ecommerce webshop for customers to buy and get shipped</li>
+                  <li>Technologies: Stripe API, Shipmondo API, C#, MSSQL, ASP.NET, JQuery, JavaScript, HTML, CSS</li>
+                </ul>
               </p>
               <div className="project-buttons">
                 <a
@@ -58,10 +60,11 @@ const Projects = () => {
               />
               <h3 className="project-title">Chipotle Mexican</h3>
               <p className="project-description">
-               - Website for restaurant owner, that displays menu ect
-               - Customers can browse and see information about the restaurant
-               - Firebase, React.js, JavaScript, HTML, CSS
-
+                <ul>
+                  <li>Website for restaurant owner, that displays menu etc.</li>
+                  <li>Customers can browse and see information about the restaurant</li>
+                  <li>Technologies: Firebase, React.js, JavaScript, HTML, CSS</li>
+                </ul>
               </p>
               <div className="project-buttons">
                 <a
@@ -94,9 +97,11 @@ const Projects = () => {
               />
               <h3 className="project-title">Grandes Rent A Car</h3>
               <p className="project-description">
-               - Webapplication for car rental owner in Turkey *prototype*
-               - Customers can browse cars, and select car to rent based on date ect
-               - Azure, C#, ASP.NET, MSSQL, Razor pages, JQuery, JavaScript, HTML, CSS 
+                <ul>
+                  <li>Web application for car rental owner in Turkey *prototype*</li>
+                  <li>Customers can browse cars and select a car to rent based on date etc.</li>
+                  <li>Technologies: Azure, C#, ASP.NET, MSSQL, Razor pages, JQuery, JavaScript, HTML, CSS</li>
+                </ul>
               </p>
               <div className="project-buttons">
                 <a
@@ -129,10 +134,11 @@ const Projects = () => {
               />
               <h3 className="project-title">Chat Space</h3>
               <p className="project-description">
-               - Hobby project where users can create chatrooms for chatting
-               - Users can create rooms, and chat in real time
-               - Angular, Azure, ASP.NET, SignalR, TypeScript, HTML, CSS
-            
+                <ul>
+                  <li>Hobby project where users can create chatrooms for chatting</li>
+                  <li>Users can create rooms and chat in real time</li>
+                  <li>Technologies: Angular, Azure, ASP.NET, SignalR, TypeScript, HTML, CSS</li>
+                </ul>
               </p>
               <div className="project-buttons">
                 <a
@@ -165,9 +171,11 @@ const Projects = () => {
               />
               <h3 className="project-title">Handy Rent</h3>
               <p className="project-description">
-                - 3rd Semester project, for renting out tools
-                - Distributed application, with solving concurrency problem in mind
-                - C#, REST API, ASP.NET, JWT, WinForms, JQuery, Razor Pages, MSSQL
+                <ul>
+                  <li>3rd Semester project, for renting out tools</li>
+                  <li>Distributed application, with solving concurrency problem in mind</li>
+                  <li>Technologies: C#, REST API, ASP.NET, JWT, WinForms, JQuery, Razor Pages, MSSQL</li>
+                </ul>
               </p>
               <div className="project-buttons">
                 <a
