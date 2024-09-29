@@ -178,16 +178,9 @@ const Projects = () => {
                 </ul>
               </p>
               <div className="project-buttons">
+           
                 <a
-                  href="https://coffeeshopapp.com"
-                  className="btn btn-dark project-btn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Visit Website
-                </a>
-                <a
-                  href="https://github.com/yourusername/coffee-shop"
+                  href="https://github.com/Melihoz98/RentalApplicationGit"
                   className="btn btn-outline-light project-btn"
                   target="_blank"
                   rel="noopener noreferrer"
