@@ -142,7 +142,7 @@ const Projects = () => {
               </p>
               <div className="project-buttons">
                 <a
-                  href="https://travelguruapp.com"
+                  href="https://lemon-sky-0d5fb4903.5.azurestaticapps.net/"
                   className="btn btn-dark project-btn"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -150,7 +150,7 @@ const Projects = () => {
                   Visit Website
                 </a>
                 <a
-                  href="https://github.com/yourusername/travel-guru"
+                  href="https://github.com/Melihoz98/ChatAppUI"
                   className="btn btn-outline-light project-btn"
                   target="_blank"
                   rel="noopener noreferrer"
