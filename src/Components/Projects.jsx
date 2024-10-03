@@ -39,7 +39,7 @@ const Projects = () => {
                   Visit Website
                 </a>
                 <a
-                  href="https://github.com/yourusername/project1"
+                  href="https://github.com/Melihoz98/KontorXpertCV-WithoutKeys"
                   className="btn btn-outline-light project-btn"
                   target="_blank"
                   rel="noopener noreferrer"
